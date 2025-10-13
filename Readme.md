@@ -8,6 +8,9 @@ It simplifies daily operations like managing inventory, sales, customers, and st
 
 ![Built with PHP](https://img.shields.io/badge/Built%20with-PHP-blue)
 
+<img width="1900" height="859" alt="image" src="https://github.com/user-attachments/assets/306b8245-865e-4fc8-ac56-25ea1f2a28d5" />
+
+
 
 ⚙️ Key Features
 👑 Admin Panel
