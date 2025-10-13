@@ -1,9 +1,13 @@
 💎 Jewellery Shop ERP System (PHP & MySQL)
+
 🧩 Project Overview
 
 The Jewellery Shop ERP System is a web-based enterprise resource planning application developed using PHP, MySQL, HTML, CSS, and JavaScript. The system is designed to automate and digitalize jewellery shop management, providing separate dashboards and functionality for admin, employee, and customers.
 
 It simplifies daily operations like managing inventory, sales, customers, and staff while offering a centralized database for efficient tracking and reporting.
+
+![Built with PHP](https://img.shields.io/badge/Built%20with-PHP-blue)
+
 
 ⚙️ Key Features
 👑 Admin Panel
