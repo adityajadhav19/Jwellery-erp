@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f0;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: linear-gradient(to right, #f8e1d4, #fff6f0);
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #8b5e3c;
+    margin-bottom: 10px;
+}
+
+.header .subtitle {
+    font-size: 20px;
+    color: #a67c52;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 20px;
+}
+
+form {
+    background-color: #fff2eb;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    max-width: 450px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #8b5e3c;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d1b8a3;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #b85c38;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background-color: #a04e31;
+}
+
+.contact-info {
+    max-width: 400px;
+    color: #5a4a3a;
+}
+
+.contact-info h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8b5e3c;
+    margin-bottom: 8px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ===== Navbar ===== */
+header {
+  background: #b8860b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fdf6f0;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: linear-gradient(to right, #f8e1d4, #fff6f0);
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #8b5e3c;
+    margin-bottom: 10px;
+}
+
+.header .subtitle {
+    font-size: 20px;
+    color: #a67c52;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 40px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: #8b5e3c;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #5a4a3a;
+}
+
+.about-image img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Mission Section */
+.mission-section {
+    background-color: #fff2eb;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.mission-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #8b5e3c;
+    margin-bottom: 20px;
+}
+
+.mission-section p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #5a4a3a;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text, .about-image {
+        max-width: 100%;
+    }
+}
+
+/* ===== Navbar ===== */
+header {
+  background: #b8860b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+header .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
