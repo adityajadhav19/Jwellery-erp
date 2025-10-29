@@ -13,7 +13,7 @@ It simplifies daily operations like managing inventory, sales, customers, and st
 
 
 
-## 👑 Admin Panel
+## 🎫 Admin Panel
 
 - Add, update, and delete jewellery items in the inventory
 - Manage employees and assign roles
@@ -34,16 +34,17 @@ Browse jewellery collections with details such as type, price, quantity, and des
 
   
 ## 🗄️ Database Design
-```
 The system uses a MySQL database to manage:
+```
 inventory (id, image, name, type, quantity, price, description, created_at)
 users (id, name, email, password, role)
-sales, orders, and leaves tables for operations tracking
-All data is securely managed with proper authentication and session handling.
+sales, orders, and leaves tables
 ```
+all this for operations tracking of data which is securely managed with proper authentication and session handling.
+
 ## 🧰 Tech Stack
 ```
-Frontend: HTML, CSS, JavaScript
+Frontnd: HTML, CSS, JavaScript
 Backend: PHP
 Database: MySQL
 Server: Apache (XAMPP)
